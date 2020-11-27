@@ -1,0 +1,88 @@
+OneNote link
+https://microsoft-my.sharepoint.com/:o:/p/v-dostakin/EkoibF9TfhNOg7A_G2Q7_soBsJpWE_BH1-VfF6jLOvHCJw
+
+Setting up the requirements
+
+Computer Vision client documentation by MS  
+
+Download latest Python
+
+Open cmd and run
+
+c:\python39\python.exe -m pip install --upgrade pip --user
+
+To update pip installer
+
+Run still in cmd as admin (always try to run it as admin sometimes --user command is not accepted)
+
+pip install --upgrade azure-cognitiveservices-vision-computervision --user
+
+To install computer vision libraries for python
+
+Download Anaconda
+
+conda install -c conda-forge jupyterlab
+
+Install Jupyter with Anacoda command prompt
+
+Install and set up a virtual environment for python
+Installing packages using pip and virtual environments — Python Packaging User Guide
+
+On cmd run these
+
+py -m pip install --user virtualenv
+
+Installs the virtual environment(venv) package
+
+py -m venv env
+
+Creates the venv folder named "env"
+
+.\env\Scripts\activate
+
+Activates and enters the venv on cmd (run cmd as admin)
+
+Now on the venv install packages for python like azure, pillow, matplotlib (run cmd as admin)
+
+.\env\scripts\python.exe -m pip install --upgrade pip (update pip installer in venv)
+
+pip install requests
+
+pip install pillow
+
+pip install --upgrade azure-cognitiveservices-vision-computervision
+
+pip install ipykernel
+
+python -m pip install -U matplotlib
+
+pip install numpy==1.19.3 (admin cmd needed) (downgrade for numpy latest version doesn't work)
+
+python -m ipykernel install --user --name=env (adds the kernel to jupyter)
+
+Launch Jupyter notebook and select env which is the newly created venv
+
+
+
+Now the documented import step but with env
+
+Create a new Python file—quickstart-file.py, for example. Then open it in your preferred editor or IDE and import the following libraries.
+
+From <https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/quickstarts-sdk/client-library?tabs=visual-studio&pivots=programming-language-python> 
+
+
+from azure.cognitiveservices.vision.computervision import ComputerVisionClient
+from azure.cognitiveservices.vision.computervision.models import OperationStatusCodes
+from azure.cognitiveservices.vision.computervision.models import VisualFeatureTypes
+from msrest.authentication import CognitiveServicesCredentials
+
+from array import array
+import os
+from PIL import Image
+import sys
+import time
+
+import matplotlib.pyplot as plt
+
+You can now continue following the documentation entering the subscription_key and endpoint.
+
