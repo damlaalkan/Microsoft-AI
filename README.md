@@ -1,6 +1,6 @@
 # Microsoft Yapay Zeka Servisleri
 
-1. Vision
+1. **Vision**
 
    a. Computer Vision API (OCR, Read, Analyze, Face, Content Moderator etc.)- Python
    
@@ -22,7 +22,7 @@
    
    e. Face Recognition - Python
    
-2. Speech
+2. **Speech**
 
    a. Speech to Text API (Real time speech, Batch Transcripiton) - Python
    
@@ -32,7 +32,7 @@
    
    d. Custom Speech Portal
    
-3. Language
+3. **Language**
 
    a. Translate API - Python
    
@@ -41,26 +41,27 @@
    c. Text Analytics (language detection, sentiment analysis, key-phrase, named-entity recognition) API - Python
    
    d. Language Understanding
+       
+       i. LUIS Portal
+       
+       ii. LUIS Predicition API - Python
    
-      i. LUIS Portal
-      
-      ii. LUIS Predicition API - Python
       
    e. QnA Maker
    
-      i. QnA Maker portal
+        i. QnA Maker portal
+       
+        ii. Chitchat tsv Turkish translate - Python     
+        
+        iii. QnA Maker Predicition API - Python
       
-      ii. Chitchat tsv Turkish translate - Python 
-      
-      iii. QnA Maker Predicition API - Python
-      
-4. Decision
+4. **Decision**
 
     a. Content Moderator
     
-      i. Content Moderator Portal (Text & Image)
+      -Content Moderator Portal (Text & Image)
       
-      ii. Content Moderator API - Python
+      -Content Moderator API - Python
       
     b. Personalizer API - Python
     
@@ -68,11 +69,11 @@
     
     d. Metric Advisor API - Python
     
-5. Bing Search API - Python
+5. **Bing Search API - Python**
 
-6. Azure Machine Learning
+6. **Azure Machine Learning**
 
-7. Azure Cognitive Search
+7. **Azure Cognitive Search**
 
-8. Bot Composer
+8. **Bot Composer**
 
