@@ -1,16 +1,27 @@
 # Microsoft Yapay Zeka Servisleri
 
 1. Vision
+
    a. Computer Vision API (OCR, Read, Analyze, Face, Content Moderator etc.)- Python
+   
    b. Custom Vision
+   
        i. Custom Vision Portal 
+       
        ii. Custom Vision Training API - Pyhon
+       
        iii. Custom Vision Prediction API - Python
+       
    c. Form Recognizer 
+   
        i. Form Recognizer Sampling Tool Portal
+       
        ii. Form Recognizer Prediction API - Python
+       
    d. Video Indexer Portal
+   
    e. Face Recognition - Python
+   
 2. Speech
    a. Speech to Text API (Real time speech, Batch Transcripiton) - Python
    b. Text to Speech API - Python
