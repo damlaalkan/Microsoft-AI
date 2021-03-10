@@ -59,9 +59,9 @@
 
     a. Content Moderator
     
-      -Content Moderator Portal (Text & Image)
-      
-      -Content Moderator API - Python
+          i. Content Moderator Portal (Text & Image)
+       
+         ii. Content Moderator API - Python
       
     b. Personalizer API - Python
     
