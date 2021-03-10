@@ -1,17 +1,40 @@
 # Microsoft Yapay Zeka Servisleri
-1. Görüntü İşleme Servislerinin Python üzerinde çağırılması örnek script
-2. Custom Vision Portalında Obje Tanıma ve Sınıflandırma modellerinin geliştirilmesi ve Python üzerinde bu modelleri tüketme
-3. Json çıktıları parse ederek Azure Storage Account üzerinde oluşturulmuş tabloya yazma, okuma, silme işlemi.
-4. Form Recognizer ile model geliştirme adımları, Form Recognizer modelini Python'da tüketme
-5. Azure Speech to Text ve Text to Speech servislerini Python'da tüketme.
-6. QnA Maker üzerinde örnek bir bot geliştirme ve Teams üzerine yayınlama.
-7. LUIS ile Türkçe doğal dil anlama modeli geliştirme. 
-8. Covid Sorularına cevap, Döviz sorularına cevap veren ve günlük dil fonksiyonlarını karşılayan botu Microsoft Bot Framework üzerinde geliştirme
-9. Power Virtual Agent ile Chatbot gelitşirme ve Teams üzerine yayınlama.
-10. Video Indexer ile Video analiz çıktılarını inceleme ve Storage Account üzerindeki tabloya yazdırma.
-11. Twitter ve Bing Image üzerindeki fotoğraflara Content Moderator servisini uygulama ve çıktıları tabloya yazdırma.
-12. Bing News üzerindeki haber içeriklerini Text Analytics servisi ile analiz etme, sentiment analizi tamamlama ve çıktıları tabloya yazdırma.
-13. Azure Machine Learning kütüphanesi ile açık kaynak modeli Azure container ve Azure Kubernetes'e yayınlama, AutoML fonksiyonu ile uygun parametreleri ve algoritmayı bulma.
-14. Azure Machine Learning ile Designer üzerinde tahminleme ve sınıflandırma modelleri geliştirme.
-15. Anomaly Detecter servisi ile gerçek zamanlı verilerde anormal durumları yakalama ve uyarı üretme.
 
+1. Vision
+   a. Computer Vision API (OCR, Read, Analyze, Face, Content Moderator etc.)- Python
+   b. Custom Vision
+       i. Custom Vision Portal 
+       ii. Custom Vision Training API - Pyhon
+       iii. Custom Vision Prediction API - Python
+   c. Form Recognizer 
+       i. Form Recognizer Sampling Tool Portal
+       ii. Form Recognizer Prediction API - Python
+   d. Video Indexer Portal
+   e. Face Recognition - Python
+2. Speech
+   a. Speech to Text API (Real time speech, Batch Transcripiton) - Python
+   b. Text to Speech API - Python
+   c. Speech translation API - Pyhon
+   d. Custom Speech Portal
+3. Language
+   a. Translate API - Python
+   b. Custom Translator Portal
+   c. Text Analytics (language detection, sentiment analysis, key-phrase, named-entity recognition) API - Python
+   d. Language Understanding
+      i. LUIS Portal
+      ii. LUIS Predicition API - Python
+   e. QnA Maker
+      i. QnA Maker portal
+      ii. Chitchat tsv Turkish translate - Python 
+      iii. QnA Maker Predicition API - Python
+4. Decision
+    a. Content Moderator
+      i. Content Moderator Portal (Text & Image)
+      ii. Content Moderator API - Python
+    b. Personalizer API - Python
+    c. Anomaly Detector API - Python
+    c. Metric Advisor API - Python
+5. Bing Search API - Python
+6. Azure Machine Learning
+7. Azure Cognitive Search
+8. Bot Composer
